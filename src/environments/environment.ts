@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase:  {
+    apiKey: 'AIzaSyBrS-mHNvIA6FQh73M17ZdD3KsSPzQ80Qo',
+    authDomain: 'ipm-task-app.firebaseapp.com',
+    databaseURL: 'https://ipm-task-app.firebaseio.com',
+    projectId: 'ipm-task-app',
+    storageBucket: 'ipm-task-app.appspot.com',
+    messagingSenderId: '272319172615'
+  }
 };
 
 /*
